@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Choco_dreams</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="shared.css">
+    <link rel="shortcut icon" href="favicon.png">
+</head>
+<body id="nav">
+
+<div class="backdrop"></div>
+<div class="modal">
+    <h1 class="modal__title">Do you want to continue?</h1>
+    <form class="modal__actions" action="send.php" method="post">
+        <input type="text" name="fio" placeholder="Укажите ФИО" required>
+        <input type="text" name="number" placeholder="Укажите номер телефона" required>
+        <input type="submit" value="Отправить">
+<!--        <a href="" class="modal__action">Yes!</a>-->
+        <a href="" class="modal__action modal__action--negative" type="button"></a>
+    </form>
+</div>
+
+
+
+
+  <header class="main_header">
+      <div class="main-logo">
+          <button class="toggle-button">
+              <span class="toggle-button__bar"></span>
+              <span class="toggle-button__bar"></span>
+              <span class="toggle-button__bar"></span>
+          </button>
+          <a href="index.html" class="main_logo">
+              <img src="images/logo.webp" alt="С заботой о счастье ваших любимых!">
+          </a>
+      </div>
+      <nav class="main_nav">
+          <ul class="main_nav_items">
+              <li class="main_nav_item">
+                  <a href="#catalog">Каталог</a>
+              </li>
+              <li class="main_nav_item">
+                  <a href="#delivery">Заказ и доставка</a>
+              </li>
+              <li class="main_nav_item">
+                  <a href="#reviews">Отзывы</a>
+              </li>
+              <li class="main_nav_item">
+                  <a href="">FAQ</a>
+              </li>
+          </ul>
+      </nav>
+      <nav class="mobile_nav">
+          <ul class="mobile_nav__items">
+              <li class="mobile_nav__item">
+                  <a href="">Каталог</a>
+              </li>
+              <li class="mobile_nav__item">
+                  <a href="">Заказ и доставка</a>
+              </li>
+              <li class="mobile_nav__item">
+                  <a href="">Отзывы</a>
+              </li>
+              <li class="mobile_nav__item">
+                  <a href="">FAQ</a>
+              </li>
+          </ul>
+      </nav>
+      <div class="main_number">
+          <a href="tel:+375292333995">+375 (29) 233-39-95</a>
+      </div>
+  </header>
+
+  <main>
+      <section class="background">
+          <div class="background_content">
+          <div class="main_title">
+              <h2>Шоколадные розы в Гродно</h2>
+          </div>
+          <div class="sub_title">
+              <h4>Выбирая подарок для любимых - выбирайте самое лучшее!</h4>
+          </div>
+          <div class="main_button">
+              <button class="button">Заказать</button>
+          </div>
+          </div>
+      </section>
+
+      <section class="main_advantages">
+          <div class="title_advantages">
+              <h3 class="title">О нас</h3>
+              <p class="font">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam culpa est ipsa magnam, nostrum
+                  sapiente voluptatibus. Ab aliquam cum dolore ducimus eius enim fuga impedit, magnam omnis quas
+                  repellat voluptatum? Ab aliquid cupiditate dignissimos dolor facilis incidunt minus
+                      mollitia nulla reprehenderit veritatis. Aperiam aspernatur beatae excepturi expedita explicabo.</p>
+          </div>
+
+          <div class="main_icons">
+              <div class="icon">
+                  <a href="">
+                      <img src="images/advantages.png" alt="">
+                  </a>
+              </div>
+              <div class="icon">
+                  <a href="">
+                      <img src="images/advantages.png" alt="">
+                  </a>
+              </div>
+              <div class="icon">
+                  <a href="">
+                      <img src="images/advantages.png" alt="">
+                  </a>
+              </div>
+              <div class="icon">
+                  <a href="">
+                      <img src="images/advantages.png" alt="">
+                  </a>
+              </div>
+
+          </div>
+
+<div class="description">
+          <div class="icon_description">
+              <h5>Итальянский шоколад</h5>
+              <p class="font">Все розы изготовленны из настоящего итальянского шоколада Ariba</p>
+          </div>
+          <div class="icon_description">
+              <h5>Срок хранения</h5>
+              <p class="font">Наши букеты не вянут. Срок хванения до 60 дней</p>
+          </div>
+          <div class="icon_description">
+              <h5>Для любого повода</h5>
+              <p class="font">День рождения, выпускной, 8 марта, день матери</p>
+          </div>
+          <div class="icon_description">
+              <h5>Доставка</h5>
+              <p class="font">Быстрая доставка по Гродно, возможно вручение без вашего участия</p>
+          </div>
+</div>
+      </section>
+
+
+      <section class="main_catalog">
+          <div class="title_catalog">
+              <h3 class="title" id="catalog">Каталог</h3>
+          </div>
+
+          <div class="menu_catalog">
+              <ul class="items_catalog">
+                  <li class="item_catalog"><a href="">Букеты</a></li>
+                  <li class="item_catalog"><a href="">Коробки</a></li>
+                  <li class="item_catalog"><a href="">Корзинки</a></li>
+              </ul>
+          </div>
+
+
+
+      </section>
+
+      <section class="main_delivery">
+          <div class="title_devilery">
+              <h3 class="title" id="delivery">Доставка и оплата</h3>
+          </div>
+          <div class="content_delivery">
+              <p class="font">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis ducimus est, in maxime molestias nisi nostrum? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis ducimus est, in maxime molestias nisi nostrum? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis ducimus est, in maxime molestias nisi nostrum? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis ducimus est, in maxime molestias nisi nostrum? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis ducimus est, in maxime molestias nisi nostrum? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis ducimus est, in maxime molestias nisi nostrum?</p>
+          </div>
+
+      </section>
+
+
+      <section class="main_reviews">
+          <div class="title_reviews">
+              <h3 class="title" id="reviews">Отзывы</h3>
+          </div>
+          <div class="slider">
+              <div class="slider__wrapper">
+                  <div class="slider__item">
+                      <div class="flex">
+                          <img src="images/2.jpeg" alt="Our volunteer">
+                          <h4>Natalia</h4>
+                      </div>
+                      <p class="font">Спасибо огромное за сладкий букет красных роз!!!! Большое спасибо и за оперативность в исполнении заказа)))
+                          В это сложное время порадовать врача скорой медицинской помощи в ее День рождения мы смогли вместе с Вами🎂😊😊.
+                          Хоть пока я не могу быть с коллегой рядом, но приятно её удивила и порадовала.
+                          Ещё раз огромное Вам спасибо за помощь в поздравлении🎂
+                      </p>
+
+
+
+                  </div>
+                  <div class="slider__item">
+                      <div class="flex">
+                          <img src="images/2.jpeg" alt="Our volunteer">
+                          <h4>Natalia</h4>
+                      </div>
+                      <p class="font">Случайно наткнулся на эту красоту. Долго не думая заказал комплект из букета роз и игрушки для жены и дочери. Жена была в восторге. Все супер, дочка не выпускает зайчика из рук. Даже находясь за 1000 км от дома, можно удивить своих любимых. Рекомендую. 👍👍👍👍
+                      </p>
+
+
+                  </div>
+                  <div class="slider__item">
+                      <div class="flex">
+                          <img src="images/2.jpeg" alt="Our volunteer">
+                          <h4>Natalia</h4>
+                      </div>
+                      <p class="font">Заказал букетик подруге, она была очень рада, очень понравилось :) Все сделали как и договорились, без каких либо недопониманий и возни. Доставку осуществили курьером. Обязательно буду заказывать еще и рекомендовать друзьям!.
+                      </p>
+                  </div>
+              </div>
+              <div class="arrows_reviews">
+                  <a class="slider__control slider__control_left" href="#" role="button"></a>
+                  <a class="slider__control slider__control_right slider__control_show" href="#" role="button"></a>
+              </div>
+          </div>
+
+
+
+      </section>
+
+
+
+
+
+  </main>
+
+
+
+  <footer class="main_footer">
+      <div class="main-logo">
+          <a href="index.html" class="main_logo">
+              <img src="images/logo (1).webp" alt="С заботой о счастье ваших любимых!">
+          </a>
+          <div class="copy">
+              <span>Copyright © 2020</span>
+              <a href="">Privacy Policy</a>
+          </div>
+      </div>
+      <nav class="footer_nav">
+          <ul class="footer_nav__item">
+              <li class="footer_nav__items">
+                  <a href="">Каталог</a>
+              </li>
+              <li class="footer_nav__items">
+                  <a href="">Доставка и оплата</a>
+              </li>
+              <li class="footer_nav__items">
+                  <a href="">Отзывы</a>
+              </li>
+              <li class="footer_nav__items">
+                  <a href="">FAQ</a>
+              </li>
+          </ul>
+      </nav>
+      <div class="main_contact">
+          <div class="main_adress">
+          <span>Гродно, ул. Парижской Коммуны 12</span>
+          </div>
+          <div class="number">
+          <span>+375(29)233-39-95, +375(29)133-43-06</span>
+          </div>
+      </div>
+  </footer>
+
+
+<script src="js/slider.js"></script>
+<script src="main.js"></script>
+<script>
+    var backdrop = document.querySelector(".backdrop");
+    var modal = document.querySelector(".modal");
+    var modalNoButton = document.querySelector(".modal__action--negative");
+    var selectPlanButtons = document.querySelectorAll(".button");
+    // var toggleButton = document.querySelector(".toggle-button");
+    var mobileNav = document.querySelector(".mobile-nav");
+
+    // console.dir(backdrop.style['background-image']);
+
+    // console.dir(backdrop);
+    for (var i = 0; i < selectPlanButtons.length; i++) {
+        selectPlanButtons[i].addEventListener("click", function() {
+            // modal.style.display = "block";
+            // backdrop.style.display = "block";
+            // modal.className = 'open'; // This will actually overwrite the complete class list
+            modal.classList.add("open");
+            backdrop.classList.add("open");
+        });
+    }
+
+    backdrop.addEventListener("click", function() {
+        // mobileNav.style.display = 'none';
+        mobileNav.classList.remove("open");
+        closeModal();
+    });
+
+    if (modalNoButton) {
+        modalNoButton.addEventListener("click", closeModal);
+    }
+
+    function closeModal() {
+        //   backdrop.style.display = "none";
+        //   modal.style.display = "none";
+        if (modal) {
+            modal.classList.remove("open");
+        }
+        backdrop.classList.remove("open");
+    }
+
+    toggleButton.addEventListener("click", function() {
+        // mobileNav.style.display = 'block';
+        // backdrop.style.display = 'block';
+        mobileNav.classList.add("open");
+        backdrop.classList.add("open");
+    });
+
+</script>
+</body>
+</html>
+
