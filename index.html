@@ -8,17 +8,16 @@
     <link rel="stylesheet" href="shared.css">
     <link rel="shortcut icon" href="favicon.png">
 </head>
-<body id="nav">
+<body>
 
 <div class="backdrop"></div>
 <div class="modal">
     <h1 class="modal__title">Do you want to continue?</h1>
     <form class="modal__actions" action="send.php" method="post">
-        <input type="text" name="fio" placeholder="Укажите ФИО" required>
+        <input type="text" name="name" placeholder="Укажите имя" required>
         <input type="text" name="number" placeholder="Укажите номер телефона" required>
         <input type="submit" value="Отправить">
-<!--        <a href="" class="modal__action">Yes!</a>-->
-        <a href="" class="modal__action modal__action--negative" type="button"></a>
+        <div class="modal__action modal__action--negative"></div>
     </form>
 </div>
 

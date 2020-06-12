@@ -103,6 +103,10 @@ body {
     display: block !important;
 }
 
+.forNoScroll {
+    overflow: hidden
+}
+
 /*advantages*/
 
 .main_advantages {
@@ -443,6 +447,10 @@ body {
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
 }
 
+.modal_position--button {
+    position: relative;
+}
+
 .modal__title {
     text-align: center;
     margin: 0 0 1rem 0;
@@ -451,15 +459,13 @@ body {
 .modal__actions {
     text-align: center;
     margin: 0 auto;
-    position: relative;
 }
 
 .modal__actions input {
     display: inline-block;
     padding: 10px 30px;
     width: 60%;
-    margin: 10px;
-
+    margin: 7px;
 }
 
 .modal__action {
@@ -470,25 +476,13 @@ body {
     font: inherit;
     /*padding: 0.5rem 1rem;*/
     cursor: pointer;
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
     position: absolute;
-    top: -40%;
-    left: 98%;
-
-}
-
-.modal__action:before {
-    content: url("images/x.jpg");
-    width: 10px;
-    height: 10px;
-
-}
-
-.modal__action:hover,
-.modal__action:active {
-    background: #2ddf5c;
-    border-color: #2ddf5c;
+    /*top: -44%;*/
+    /*left: 98%;*/
+    right: 0;
+    top: 0;
 }
 
 .modal__action--negative {
@@ -496,8 +490,14 @@ body {
     border-color: #d83f2d;
 }
 
+.modal__action--negative:before {
+    content: "\2716";
+}
+
 .modal__action--negative:hover,
 .modal__action--negative:active {
     background: #ff5454;
     border-color: #ff5454;
 }
+
+
