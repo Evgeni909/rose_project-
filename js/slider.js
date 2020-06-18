@@ -3,8 +3,8 @@ var multiItemSlider = (function () {
     return function (selector, config) {
         var
             _mainElement = document.querySelector(selector), // основный элемент блока
-            _sliderWrapper = _mainElement.querySelector('.slider__wrapper'), // обертка для .slider-item
-            _sliderItems = _mainElement.querySelectorAll('.slider__item'), // элементы (.slider-item)
+            _sliderWrapper = _mainElement.querySelector('.slider__wrapper-reviews'), // обертка для .slider-item
+            _sliderItems = _mainElement.querySelectorAll('.slider__item-reviews'), // элементы (.slider-item)
             _sliderControls = _mainElement.querySelectorAll('.slider__control'), // элементы управления
             _sliderControlLeft = _mainElement.querySelector('.slider__control_left'), // кнопка "LEFT"
             _sliderControlRight = _mainElement.querySelector('.slider__control_right'), // кнопка "RIGHT"
@@ -85,4 +85,4 @@ var multiItemSlider = (function () {
     }
 }());
 
-var slider = multiItemSlider('.slider')
+var slider = multiItemSlider('.slider-reviews')
