@@ -17,8 +17,18 @@
         <input type="text" name="name" placeholder="Укажите имя" required>
         <input type="text" name="number" placeholder="Укажите номер телефона" required>
         <input type="submit" value="Отправить">
-        <div class="modal__action modal__action--negative"></div>
+
     </form>
+    <div class="modal__action modal__action--negative"></div>
+    <!--<form-->
+            <!--method="POST"-->
+            <!--action="https://formfor.site/send/O1QW0cvnIsfqdEjz88z2um1ektyqKI"-->
+    <!--&gt;-->
+        <!--<input type="email" name="email"/>-->
+        <!--<input name="name"/>-->
+        <!--<button type="submit">Send</button>-->
+    <!--</form>-->
+
 </div>
 
 
@@ -87,6 +97,7 @@
           </div>
       </section>
 
+<section class="main-contenier">
       <section class="main_advantages">
           <div class="title_advantages">
               <h3 class="title">О нас</h3>
@@ -143,7 +154,7 @@
 
       <section class="main_catalog">
           <div class="title_catalog">
-              <h3>Каталог</h3>
+              <h3 id="catalog">Каталог</h3>
           </div>
 
           <div class="menu_catalog">
@@ -335,6 +346,10 @@
               </div>
 
 
+                  <button class="button-catalog button">Заказать</button>
+
+
+
               <div class="overlay"></div>
               <div class="popup">
                   <img id="img-1" class="full-image" src="images/коробка.jpg" alt="">
@@ -358,8 +373,8 @@
 
 
       <section class="main_delivery">
-          <div class="title_devilery">
-              <h3 class="title" id="delivery">Доставка и оплата</h3>
+          <div class="title_delivery">
+              <h3 id="delivery" class="title">Доставка и оплата</h3>
           </div>
           <div class="content_delivery">
               <p class="font">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis ducimus est, in maxime molestias nisi nostrum? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis ducimus est, in maxime molestias nisi nostrum? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis ducimus est, in maxime molestias nisi nostrum? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis ducimus est, in maxime molestias nisi nostrum? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis ducimus est, in maxime molestias nisi nostrum? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis ducimus est, in maxime molestias nisi nostrum?</p>
@@ -416,6 +431,7 @@
 
 
 
+</section>
   </main>
 
 
@@ -478,6 +494,7 @@
             // modal.className = 'open'; // This will actually overwrite the complete class list
             modal.classList.add("open");
             backdrop.classList.add("open");
+            document.body.classList.add('forNoScroll');F
         });
     }
 

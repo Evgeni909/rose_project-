@@ -107,11 +107,18 @@ body {
     overflow: hidden
 }
 
+
+.main-contenier {
+    position: relative;
+    top: -6rem;
+}
+
 /*advantages*/
 
 .main_advantages {
     text-align: center;
     width: 100%;
+
 }
 
 .title_advantages {
@@ -172,6 +179,10 @@ body {
     content: '';
 }
 
+.icon a:before:hover {
+    background: #7a7a7a;;
+}
+
 .icon a img {
     -webkit-transition: 0.5s; */
     -moz-transition: 0.5s;
@@ -210,7 +221,7 @@ body {
     text-align: center;
     padding: 47px 0 47px 0;
     background: #f5f5f5;
-    height: 600px;
+    height: 700px;
 }
 
 .title_catalog {
@@ -242,6 +253,11 @@ body {
     content: '';
 }
 
+.button-catalog {
+    position: relative;
+    top: 25rem;
+}
+
 .slider, .slider1, .slider2 {
     position: absolute;
     overflow: hidden;
@@ -256,6 +272,7 @@ body {
     transition: transform 0.6s ease;
     margin-top: 20px;
     /*position: relative;*/
+
 }
 
 
@@ -268,6 +285,7 @@ body {
     max-width: 20.333333%;
     margin: 0 10px;
     position: relative;
+
 
 }
 
@@ -378,6 +396,12 @@ body {
     height: 230px;
 }
 
+.zoom-small:hover {
+    background: #de696b;
+    /*border-bottom: 3px solid black;*/
+    opacity: 0.5;
+}
+
 .overlay {
     position: fixed;
     top: 0;
@@ -449,13 +473,48 @@ body {
 
 /*delivery*/
 
+/*.main_delivery {*/
+    /*padding: 47px 0 47px 0;*/
+/*}*/
+
+/*.title_delivery h3 {*/
+    /*position: relative;*/
+    /*padding: 0 0 24px 0;*/
+    /*letter-spacing: 3px;*/
+    /*text-transform: uppercase;*/
+    /*margin: 0 0 63px 0;*/
+    /*line-height: 30px;*/
+    /*font-size: 30px;*/
+    /*font-weight: 700;*/
+    /*color: #444;*/
+    /*text-align: center;*/
+/*}*/
+
+/*.delivery-bottom {*/
+    /*margin-bottom: 26px;*/
+/*}*/
+
+/*.title_delivery h3:before {*/
+    /*background: #444;*/
+    /*display: block;*/
+    /*position: absolute;*/
+    /*bottom: 0;*/
+    /*left: 50%;*/
+    /*width: 44px;*/
+    /*height: 3px;*/
+    /*overflow: hidden;*/
+    /*margin: 0 0 0 -22px;*/
+    /*content: '';*/
+/*}*/
+
 .main_delivery {
     text-align: center;
     padding: 47px 0 47px 0;
 }
 
-.title_devilery {
+.title_delivery h3 {
     margin: 0 0 63px 0;
+    z-index: -1;
 }
 
 .content_delivery p {

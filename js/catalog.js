@@ -118,6 +118,7 @@ $(function () {
         $(".hover-buttons").css("visibility", "hidden");
         $(".overlay").addClass("active");
         $(".popup").addClass("active");
+        $("body").addClass("forNoScroll");
 
         var activeImg = $(this).attr("href");
         $(activeImg).fadeIn();
@@ -126,6 +127,7 @@ $(function () {
     $(".close").click(function () {
         $(".overlay").removeClass("active");
         $(".popup").removeClass("active");
+        $("body").removeClass("forNoScroll");
         $(".full-image").hide();
         $(".hover-buttons").css("visibility", "visible");
     });
@@ -133,6 +135,7 @@ $(function () {
     $(document).on("click", ".overlay", function () {
         $(".overlay").removeClass("active");
         $(".popup").removeClass("active");
+        $("body").removeClass("forNoScroll");
         $(".full-image").hide();
         $(".hover-buttons").css("visibility", "visible");
     });
@@ -140,6 +143,7 @@ $(function () {
     $(".overlay").click(function () {
         $(".overlay").removeClass("active");
         $(".popup").removeClass("active");
+        $("body").removeClass("forNoScroll");
         $(".full-image").hide();
         $(".hover-buttons").css("visibility", "visible");
     });
