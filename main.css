@@ -6,31 +6,7 @@
 
 body {
     font-family: 'OpenSans';
-}
-
-.title {
-    position: relative;
-    padding: 0 0 24px 0;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    margin-bottom: 26px;
-    line-height: 30px;
-    font-size: 30px;
-    font-weight: 700;
-    color: #444;
-}
-
-.title:before {
-    background: #444;
-    display: block;
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    width: 44px;
-    height: 3px;
-    overflow: hidden;
-    margin: 0 0 0 -22px;
-    content: '';
+    overflow-x: hidden;
 }
 
 .font {
@@ -117,12 +93,11 @@ body {
 
 .main_advantages {
     text-align: center;
-    width: 100%;
-
 }
 
-.title_advantages {
-    margin: 0 0 63px 0;
+.main_title--basic p {
+    width: 65%;
+    margin: 0 auto;
 }
 
 .title_advantages p {
@@ -138,7 +113,6 @@ body {
     position: relative;
     justify-content: center;
     margin: 0 0 1.5rem;
-
 }
 
 .icon {
@@ -222,35 +196,6 @@ body {
     padding: 47px 0 47px 0;
     background: #f5f5f5;
     height: 700px;
-}
-
-.title_catalog {
-    margin: 0 0 63px 0;
-}
-
-.title_catalog h3 {
-    position: relative;
-    padding: 0 0 24px 0;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    margin-bottom: 26px;
-    line-height: 30px;
-    font-size: 30px;
-    font-weight: 700;
-    color: #444;
-}
-
-.title_catalog h3:before {
-    background: #444;
-    display: block;
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    width: 44px;
-    height: 3px;
-    overflow: hidden;
-    margin: 0 0 0 -22px;
-    content: '';
 }
 
 .button-catalog {
@@ -337,7 +282,7 @@ body {
 /*}*/
 
 .slider__wrapper .slider__item img {
-    height: 230px;
+    height: 270px;
     width: 100%;
     background-size: cover;
 }
@@ -371,6 +316,7 @@ body {
     border-bottom: 3px solid #de696b;
 }
 
+
 .hover-buttons {
     width: 100%;
     height: 40px;
@@ -393,7 +339,7 @@ body {
     border-radius: 5px;
     z-index: 2;
     width: 100%;
-    height: 230px;
+    height: 270px;
 }
 
 .zoom-small:hover {
@@ -469,6 +415,10 @@ body {
     cursor: pointer;
 }
 
+.active-button {
+    color: #de696b !important;
+    border-bottom: 3px solid #de696b !important;
+}
 
 
 /*delivery*/
@@ -513,7 +463,6 @@ body {
 }
 
 .title_delivery h3 {
-    margin: 0 0 63px 0;
     z-index: -1;
 }
 
@@ -531,10 +480,6 @@ body {
     text-align: center;
     padding: 47px 0 47px 0;
     background: #f5f5f5;
-}
-
-.title_reviews {
-    margin: 0 0 63px 0;
 }
 
 .slider-reviews {
@@ -678,6 +623,8 @@ body {
 
 
 
+
+
 .backdrop {
     position: fixed;
     display: none;
@@ -754,5 +701,6 @@ body {
     background: #ff5454;
     border-color: #ff5454;
 }
+
 
 

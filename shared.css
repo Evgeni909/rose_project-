@@ -214,3 +214,94 @@ body {
     left: -4.9rem;
     content: '';
 }
+
+
+/*медиа*/
+
+.main-media {
+    text-align: center;
+    padding: 47px 0 47px 0;
+}
+
+.media-titile {
+    margin: 0 0 63px 0;
+}
+
+/*.social_links li a {*/
+/*display: inline-block;*/
+/*-webkit-transition: 0.8s;*/
+/*-moz-transition: 0.8s;*/
+/*-o-transition: 0.8s;*/
+/*!* transition: 0.8s; *!*/
+/*vertical-align: top;*/
+/*line-height: 44px;*/
+/*font-size: 44px;*/
+/*color: #444;*/
+/*}*/
+
+
+/*.social_link__instagram:before {*/
+/*content: '\f16d';*/
+/*}*/
+
+.social_links {
+    display: flex;
+    justify-content: center;
+}
+
+.social_links li {
+    list-style-type: none;
+    margin: 0 1rem;
+}
+
+.social_links li a {
+    opacity: 0.5;
+}
+
+.social_links li a img {
+    /*display: none;*/
+    width: 50px;
+    height: 50px;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 1s;
+}
+
+.social_links li a img:hover {
+    transform: rotateY(360deg) rotateX(0);
+}
+
+
+
+/*title*/
+
+.main_title--basic {
+    margin: 0 0 63px 0;
+    text-align: center;
+}
+
+.title {
+    position: relative;
+    padding: 0 0 24px 0;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 26px;
+    line-height: 30px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #444;
+}
+
+.title:before {
+    background: #444;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 44px;
+    height: 3px;
+    overflow: hidden;
+    margin: 0 0 0 -22px;
+    content: '';
+}

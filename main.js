@@ -19,6 +19,11 @@ document.querySelector('.modal__action').addEventListener('click', () => {
     document.body.classList.remove('forNoScroll');
 })
 
+$('.menu_catalog div').on('click', 'button', function(){
+    $('.menu_catalog button').removeClass('active-button');
+    $(this).addClass('active-button');
+});
+
 
 
 

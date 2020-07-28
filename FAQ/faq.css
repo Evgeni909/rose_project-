@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'OpenSans';
+    overflow-x: hidden;
+}
+
+.background {
+    width: 100%;
+    background-image: url("../images/background1.jpg");
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 170px;
+    position: relative;
+    top: -11rem;
+    z-index: 2;
+}
+
+.main_faq {
+    padding: 47px 0 47px 0;
+    position: relative;
+    top: -9rem;
+}
+
+.main_title--basic a{
+    text-decoration: none;
+    padding: 0 0.5rem;
+}
+
+.main_title--basic a:nth-child(2) {
+    color: #7a7a7a;
+}
+
+.main_title--basic a:nth-child(3) {
+    color: #de696b;
+}
+
+
+
+
